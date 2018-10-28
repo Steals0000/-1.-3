@@ -11,11 +11,12 @@ namespace _2._1._11
     {
         static void Main(string[] args)
         {
+            Performance performance;
             Console.Write("Введите название спектакля: ");
             string name = Console.ReadLine();
             int startViewersCount = InputCheck("Введите начальное количество зрителей: ");
             int endViewersCount = InputCheck("Введите конечное количество зрителей: ");
-            Performance performance = new Performance(startViewersCount, endViewersCount, name);
+            performance = new Performance(startViewersCount, endViewersCount, name);
             Console.WriteLine("Спектакль " + performance.Name + " создан");
             Console.WriteLine("Качество спектакля - " + performance.GetQuality());
             Console.Write("\nВведите название второго спектакля: ");
@@ -23,8 +24,8 @@ namespace _2._1._11
             startViewersCount = InputCheck("Введите начальное количество зрителей: ");
             endViewersCount = InputCheck("Введите конечное количество зрителей: ");
             int yearOfWriting = InputCheck("Введите год написания спектакля: ");
-            PerformanceChild performanceChild = new PerformanceChild(startViewersCount, endViewersCount, name, yearOfWriting);
-            Console.WriteLine("Качество спектакля - " + performanceChild.GetQuality());
+            performance = new PerformanceChild(startViewersCount, endViewersCount, name, yearOfWriting);
+            Console.WriteLine("Качество спектакля - " + performance.GetQuality());
             Console.ReadKey();
         }
 

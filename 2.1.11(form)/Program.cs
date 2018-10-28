@@ -16,7 +16,7 @@ namespace _2._1._11_form_
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new PerformanceForm());
         }
     }
 }

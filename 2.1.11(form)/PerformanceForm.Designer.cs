@@ -1,6 +1,6 @@
 ﻿namespace _2._1._11_form_
 {
-    partial class Form1
+    partial class PerformanceForm
     {
         /// <summary>
         /// Обязательная переменная конструктора.
@@ -45,9 +45,10 @@
             // choosePerformanceClassRButton
             // 
             this.choosePerformanceClassRButton.AutoSize = true;
-            this.choosePerformanceClassRButton.Location = new System.Drawing.Point(13, 24);
+            this.choosePerformanceClassRButton.Location = new System.Drawing.Point(20, 37);
+            this.choosePerformanceClassRButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.choosePerformanceClassRButton.Name = "choosePerformanceClassRButton";
-            this.choosePerformanceClassRButton.Size = new System.Drawing.Size(165, 17);
+            this.choosePerformanceClassRButton.Size = new System.Drawing.Size(243, 24);
             this.choosePerformanceClassRButton.TabIndex = 0;
             this.choosePerformanceClassRButton.TabStop = true;
             this.choosePerformanceClassRButton.Text = "Выбрать класс Performance";
@@ -57,9 +58,10 @@
             // choosePerformanceChildClassRButton
             // 
             this.choosePerformanceChildClassRButton.AutoSize = true;
-            this.choosePerformanceChildClassRButton.Location = new System.Drawing.Point(13, 58);
+            this.choosePerformanceChildClassRButton.Location = new System.Drawing.Point(20, 89);
+            this.choosePerformanceChildClassRButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.choosePerformanceChildClassRButton.Name = "choosePerformanceChildClassRButton";
-            this.choosePerformanceChildClassRButton.Size = new System.Drawing.Size(188, 17);
+            this.choosePerformanceChildClassRButton.Size = new System.Drawing.Size(278, 24);
             this.choosePerformanceChildClassRButton.TabIndex = 1;
             this.choosePerformanceChildClassRButton.TabStop = true;
             this.choosePerformanceChildClassRButton.Text = "Выбрать класс PerformanceChild";
@@ -68,73 +70,85 @@
             // 
             // startViewersCountTextBox
             // 
-            this.startViewersCountTextBox.Location = new System.Drawing.Point(345, 23);
+            this.startViewersCountTextBox.Location = new System.Drawing.Point(518, 35);
+            this.startViewersCountTextBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.startViewersCountTextBox.Name = "startViewersCountTextBox";
-            this.startViewersCountTextBox.Size = new System.Drawing.Size(54, 20);
+            this.startViewersCountTextBox.Size = new System.Drawing.Size(79, 26);
             this.startViewersCountTextBox.TabIndex = 2;
+            this.startViewersCountTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.startViewersCountTextBox_KeyPress);
             // 
             // startViewersCountLabel
             // 
             this.startViewersCountLabel.AutoSize = true;
-            this.startViewersCountLabel.Location = new System.Drawing.Point(224, 18);
+            this.startViewersCountLabel.Location = new System.Drawing.Point(336, 28);
+            this.startViewersCountLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.startViewersCountLabel.Name = "startViewersCountLabel";
-            this.startViewersCountLabel.Size = new System.Drawing.Size(115, 26);
+            this.startViewersCountLabel.Size = new System.Drawing.Size(174, 40);
             this.startViewersCountLabel.TabIndex = 3;
             this.startViewersCountLabel.Text = "Введите начальное\r\nколичество зрителей\r\n";
             // 
             // endViewersCountLabel
             // 
             this.endViewersCountLabel.AutoSize = true;
-            this.endViewersCountLabel.Location = new System.Drawing.Point(224, 58);
+            this.endViewersCountLabel.Location = new System.Drawing.Point(336, 89);
+            this.endViewersCountLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.endViewersCountLabel.Name = "endViewersCountLabel";
-            this.endViewersCountLabel.Size = new System.Drawing.Size(115, 26);
+            this.endViewersCountLabel.Size = new System.Drawing.Size(174, 40);
             this.endViewersCountLabel.TabIndex = 4;
             this.endViewersCountLabel.Text = "Введите конечное \nколичество зрителей\r\n";
             // 
             // endViewersCountTextBox
             // 
-            this.endViewersCountTextBox.Location = new System.Drawing.Point(345, 64);
+            this.endViewersCountTextBox.Location = new System.Drawing.Point(518, 98);
+            this.endViewersCountTextBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.endViewersCountTextBox.Name = "endViewersCountTextBox";
-            this.endViewersCountTextBox.Size = new System.Drawing.Size(54, 20);
+            this.endViewersCountTextBox.Size = new System.Drawing.Size(79, 26);
             this.endViewersCountTextBox.TabIndex = 5;
+            this.endViewersCountTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.endViewersCountTextBox_KeyPress);
             // 
             // nameLabel
             // 
             this.nameLabel.AutoSize = true;
-            this.nameLabel.Location = new System.Drawing.Point(12, 100);
+            this.nameLabel.Location = new System.Drawing.Point(18, 154);
+            this.nameLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.nameLabel.Name = "nameLabel";
-            this.nameLabel.Size = new System.Drawing.Size(100, 26);
+            this.nameLabel.Size = new System.Drawing.Size(151, 40);
             this.nameLabel.TabIndex = 6;
             this.nameLabel.Text = "Введите название\r\n спектакля";
             // 
             // nameTextBox
             // 
-            this.nameTextBox.Location = new System.Drawing.Point(118, 106);
+            this.nameTextBox.Location = new System.Drawing.Point(177, 163);
+            this.nameTextBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.nameTextBox.Name = "nameTextBox";
-            this.nameTextBox.Size = new System.Drawing.Size(138, 20);
+            this.nameTextBox.Size = new System.Drawing.Size(205, 26);
             this.nameTextBox.TabIndex = 7;
             // 
             // yearOfWritingLabel
             // 
             this.yearOfWritingLabel.AutoSize = true;
-            this.yearOfWritingLabel.Location = new System.Drawing.Point(262, 100);
+            this.yearOfWritingLabel.Location = new System.Drawing.Point(393, 154);
+            this.yearOfWritingLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.yearOfWritingLabel.Name = "yearOfWritingLabel";
-            this.yearOfWritingLabel.Size = new System.Drawing.Size(120, 26);
+            this.yearOfWritingLabel.Size = new System.Drawing.Size(176, 40);
             this.yearOfWritingLabel.TabIndex = 8;
             this.yearOfWritingLabel.Text = "Введите год\r\n написания спектакля";
             // 
             // yearOfWritingTextBox
             // 
-            this.yearOfWritingTextBox.Location = new System.Drawing.Point(388, 106);
+            this.yearOfWritingTextBox.Location = new System.Drawing.Point(582, 163);
+            this.yearOfWritingTextBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.yearOfWritingTextBox.Name = "yearOfWritingTextBox";
-            this.yearOfWritingTextBox.Size = new System.Drawing.Size(54, 20);
+            this.yearOfWritingTextBox.Size = new System.Drawing.Size(79, 26);
             this.yearOfWritingTextBox.TabIndex = 9;
+            this.yearOfWritingTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.yearOfWritingTextBox_KeyPress);
             // 
             // outputButton
             // 
-            this.outputButton.Location = new System.Drawing.Point(470, 109);
+            this.outputButton.Location = new System.Drawing.Point(705, 168);
+            this.outputButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.outputButton.Name = "outputButton";
-            this.outputButton.Size = new System.Drawing.Size(133, 23);
+            this.outputButton.Size = new System.Drawing.Size(200, 35);
             this.outputButton.TabIndex = 10;
             this.outputButton.Text = "Рассчитать качество";
             this.outputButton.UseVisualStyleBackColor = true;
@@ -143,16 +157,17 @@
             // outputLabel
             // 
             this.outputLabel.AutoSize = true;
-            this.outputLabel.Location = new System.Drawing.Point(427, 48);
+            this.outputLabel.Location = new System.Drawing.Point(640, 74);
+            this.outputLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.outputLabel.Name = "outputLabel";
-            this.outputLabel.Size = new System.Drawing.Size(0, 13);
+            this.outputLabel.Size = new System.Drawing.Size(0, 20);
             this.outputLabel.TabIndex = 11;
             // 
-            // Form1
+            // PerformanceForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(615, 144);
+            this.ClientSize = new System.Drawing.Size(922, 222);
             this.Controls.Add(this.outputLabel);
             this.Controls.Add(this.outputButton);
             this.Controls.Add(this.yearOfWritingTextBox);
@@ -165,7 +180,8 @@
             this.Controls.Add(this.startViewersCountTextBox);
             this.Controls.Add(this.choosePerformanceChildClassRButton);
             this.Controls.Add(this.choosePerformanceClassRButton);
-            this.Name = "Form1";
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Name = "PerformanceForm";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();

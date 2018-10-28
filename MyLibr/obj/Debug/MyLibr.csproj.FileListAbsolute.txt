@@ -29,3 +29,9 @@ Z:\Users\Vlad\Desktop\Аттестация 1. Семестр № 3\MyLibr\obj\De
 Z:\Users\Vlad\Desktop\Аттестация 1. Семестр № 3\MyLibr\obj\Debug\MyLibr.csproj.CoreCompileInputs.cache
 Z:\Users\Vlad\Desktop\Аттестация 1. Семестр № 3\MyLibr\obj\Debug\MyLibr.dll
 Z:\Users\Vlad\Desktop\Аттестация 1. Семестр № 3\MyLibr\obj\Debug\MyLibr.pdb
+E:\Новая папка (3)\Аттестация 1. Семестр № 3\MyLibr\bin\Debug\MyLibr.dll
+E:\Новая папка (3)\Аттестация 1. Семестр № 3\MyLibr\bin\Debug\MyLibr.pdb
+E:\Новая папка (3)\Аттестация 1. Семестр № 3\MyLibr\obj\Debug\MyLibr.csprojResolveAssemblyReference.cache
+E:\Новая папка (3)\Аттестация 1. Семестр № 3\MyLibr\obj\Debug\MyLibr.csproj.CoreCompileInputs.cache
+E:\Новая папка (3)\Аттестация 1. Семестр № 3\MyLibr\obj\Debug\MyLibr.dll
+E:\Новая папка (3)\Аттестация 1. Семестр № 3\MyLibr\obj\Debug\MyLibr.pdb
