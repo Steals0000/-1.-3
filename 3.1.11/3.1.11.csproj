@@ -4,15 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DE71BED6-E590-470E-964F-B03C61CFB05D}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MyLibr</RootNamespace>
-    <AssemblyName>MyLibr</AssemblyName>
+    <ProjectGuid>{9A6314F9-21C3-4A44-B6E0-A35CE272533F}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>_3._1._11</RootNamespace>
+    <AssemblyName>3.1.11</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -22,6 +23,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -40,16 +42,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="1.1.11\Array.cs" />
-    <Compile Include="1.1.11\Element.cs" />
-    <Compile Include="1.1.11\Linear Array.cs" />
-    <Compile Include="2.1.11\Performance.cs" />
-    <Compile Include="2.1.11\PerformanceChild.cs" />
-    <Compile Include="3.1.11\Clothes.cs" />
-    <Compile Include="3.1.11\ITextile.cs" />
-    <Compile Include="3.1.11\Сostume.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MyLibr\MyLibr.csproj">
+      <Project>{de71bed6-e590-470e-964f-b03c61cfb05d}</Project>
+      <Name>MyLibr</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

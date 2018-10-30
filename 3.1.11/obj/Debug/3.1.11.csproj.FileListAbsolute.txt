@@ -1,0 +1,20 @@
+Z:\Users\Vlad\Desktop\Progi\Аттестация 1. Семестр № 3\3.1.11\obj\Debug\3.1.11.csprojResolveAssemblyReference.cache
+Z:\Users\Vlad\Desktop\Progi\Аттестация 1. Семестр № 3\3.1.11\obj\Debug\3.1.11.csproj.CoreCompileInputs.cache
+Z:\Users\Vlad\Desktop\Progi\Аттестация 1. Семестр № 3\3.1.11\bin\Debug\3.1.11.exe.config
+Z:\Users\Vlad\Desktop\Progi\Аттестация 1. Семестр № 3\3.1.11\bin\Debug\3.1.11.exe
+Z:\Users\Vlad\Desktop\Progi\Аттестация 1. Семестр № 3\3.1.11\bin\Debug\3.1.11.pdb
+Z:\Users\Vlad\Desktop\Progi\Аттестация 1. Семестр № 3\3.1.11\bin\Debug\MyLibr.dll
+Z:\Users\Vlad\Desktop\Progi\Аттестация 1. Семестр № 3\3.1.11\bin\Debug\MyLibr.pdb
+Z:\Users\Vlad\Desktop\Progi\Аттестация 1. Семестр № 3\3.1.11\obj\Debug\3.1.11.csproj.CopyComplete
+Z:\Users\Vlad\Desktop\Progi\Аттестация 1. Семестр № 3\3.1.11\obj\Debug\3.1.11.exe
+Z:\Users\Vlad\Desktop\Progi\Аттестация 1. Семестр № 3\3.1.11\obj\Debug\3.1.11.pdb
+L:\Новая папка (4)\Аттестация 1. Семестр № 3\3.1.11\bin\Debug\3.1.11.exe.config
+L:\Новая папка (4)\Аттестация 1. Семестр № 3\3.1.11\bin\Debug\3.1.11.exe
+L:\Новая папка (4)\Аттестация 1. Семестр № 3\3.1.11\bin\Debug\3.1.11.pdb
+L:\Новая папка (4)\Аттестация 1. Семестр № 3\3.1.11\bin\Debug\MyLibr.dll
+L:\Новая папка (4)\Аттестация 1. Семестр № 3\3.1.11\bin\Debug\MyLibr.pdb
+L:\Новая папка (4)\Аттестация 1. Семестр № 3\3.1.11\obj\Debug\3.1.11.csprojResolveAssemblyReference.cache
+L:\Новая папка (4)\Аттестация 1. Семестр № 3\3.1.11\obj\Debug\3.1.11.csproj.CoreCompileInputs.cache
+L:\Новая папка (4)\Аттестация 1. Семестр № 3\3.1.11\obj\Debug\3.1.11.csproj.CopyComplete
+L:\Новая папка (4)\Аттестация 1. Семестр № 3\3.1.11\obj\Debug\3.1.11.exe
+L:\Новая папка (4)\Аттестация 1. Семестр № 3\3.1.11\obj\Debug\3.1.11.pdb

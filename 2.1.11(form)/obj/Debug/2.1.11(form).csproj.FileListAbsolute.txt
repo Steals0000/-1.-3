@@ -23,3 +23,16 @@ E:\Новая папка (3)\Аттестация 1. Семестр № 3\2.1.11
 E:\Новая папка (3)\Аттестация 1. Семестр № 3\2.1.11(form)\obj\Debug\2.1.11(form).csproj.CoreCompileInputs.cache
 E:\Новая папка (3)\Аттестация 1. Семестр № 3\2.1.11(form)\obj\Debug\2.1.11(form).exe
 E:\Новая папка (3)\Аттестация 1. Семестр № 3\2.1.11(form)\obj\Debug\2.1.11(form).pdb
+Z:\Users\Vlad\Desktop\Progi\Аттестация 1. Семестр № 3\2.1.11(form)\bin\Debug\2.1.11(form).exe.config
+Z:\Users\Vlad\Desktop\Progi\Аттестация 1. Семестр № 3\2.1.11(form)\bin\Debug\2.1.11(form).exe
+Z:\Users\Vlad\Desktop\Progi\Аттестация 1. Семестр № 3\2.1.11(form)\bin\Debug\2.1.11(form).pdb
+Z:\Users\Vlad\Desktop\Progi\Аттестация 1. Семестр № 3\2.1.11(form)\bin\Debug\MyLibr.dll
+Z:\Users\Vlad\Desktop\Progi\Аттестация 1. Семестр № 3\2.1.11(form)\bin\Debug\MyLibr.pdb
+Z:\Users\Vlad\Desktop\Progi\Аттестация 1. Семестр № 3\2.1.11(form)\obj\Debug\2.1.11(form).csprojResolveAssemblyReference.cache
+Z:\Users\Vlad\Desktop\Progi\Аттестация 1. Семестр № 3\2.1.11(form)\obj\Debug\_2._1._11_form_.PerformanceForm.resources
+Z:\Users\Vlad\Desktop\Progi\Аттестация 1. Семестр № 3\2.1.11(form)\obj\Debug\_2._1._11_form_.Properties.Resources.resources
+Z:\Users\Vlad\Desktop\Progi\Аттестация 1. Семестр № 3\2.1.11(form)\obj\Debug\2.1.11(form).csproj.GenerateResource.cache
+Z:\Users\Vlad\Desktop\Progi\Аттестация 1. Семестр № 3\2.1.11(form)\obj\Debug\2.1.11(form).csproj.CoreCompileInputs.cache
+Z:\Users\Vlad\Desktop\Progi\Аттестация 1. Семестр № 3\2.1.11(form)\obj\Debug\2.1.11(form).csproj.CopyComplete
+Z:\Users\Vlad\Desktop\Progi\Аттестация 1. Семестр № 3\2.1.11(form)\obj\Debug\2.1.11(form).exe
+Z:\Users\Vlad\Desktop\Progi\Аттестация 1. Семестр № 3\2.1.11(form)\obj\Debug\2.1.11(form).pdb
