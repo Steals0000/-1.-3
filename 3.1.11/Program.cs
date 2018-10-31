@@ -53,7 +53,7 @@ namespace _3._1._11
                         foreach (Costume costume in costumesList)
                         {
                             counter++;
-                            Console.WriteLine("#" + counter + ". " + costume.CostumeName + "\n" + costume.TextileType + "\n" + costume.ManufacturerName);
+                            Console.WriteLine("#" + counter + "\n" + costume.CostumeName + "\n" + costume.TextileType + "\n" + costume.ManufacturerName);
                             Console.WriteLine("--------------------------------------------------------------------------");
                         }
                         break;
@@ -62,11 +62,11 @@ namespace _3._1._11
                         Console.WriteLine("Выберите костюм");
                         while (!int.TryParse(Console.ReadLine(), out number))
                         {
-                            Console.WriteLine("Выберите номер из списка\n");
+                            Console.WriteLine("Выберите номер из списка!");
                         }
                         if ((number < 0) || (number > costumesList.Count()))
                         {
-                            Console.WriteLine("За пределами границ списка\n");
+                            Console.WriteLine("Номер за пределами списка костюмов");
                         }
                         else
                         {
@@ -117,14 +117,8 @@ namespace _3._1._11
                         }
                         break;
                     case 5:
-                        if (((Costume)costume).MarkAsBad())
-                        {
-                            Console.WriteLine("Костюм отмечен как плохой");
-                        }
-                        else
-                        {
-                            Console.WriteLine("Вы не можете отметить костюм как плохой, не проверив его на целостность");
-                        }
+                        ((Costume)costume).MarkAsBad();
+                        Console.WriteLine("Костюм отмечен как плохой");
                         break;
                 }
             }

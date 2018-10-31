@@ -16,7 +16,7 @@
             this.CostumeName = costumeName;
         }
 
-        public override bool CheckIntegrity()
+        public override bool CheckIntegrity()//отметить ткань как целую
         {
             return IsIntegrityChecked = true;
         }
@@ -39,11 +39,11 @@
             {
                 info += "Костюм хороший" + "\n";
             }
-            else if ((IsIntegrityChecked) && (!IsCostumeGood))
+            else if  (!IsCostumeGood)
             {
-                info += "Костюм плохой или не прошел не был проверен" + "\n";
+                info += "Костюм плохой" + "\n";
             }
-            info += "Отзыв на одежду этой фирмы: " + YourReview ;
+            info += "Отзыв на одежду этой фирмы: " + YourReview;
             return info;
         }
 
@@ -59,16 +59,9 @@
             }
         }
 
-        public bool MarkAsBad() // отметить костюм как плохой
+        public void MarkAsBad() // отметить костюм как плохой, изначально костюм всегда плохой
         {
-            if (IsIntegrityChecked)
-            {
-                return IsCostumeGood = false;
-            }
-            else
-            {
-                return false;
-            }
+            IsCostumeGood = false;
         }
 
     }
