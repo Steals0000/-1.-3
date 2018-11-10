@@ -8,10 +8,10 @@ namespace MyLibr._3._1._11
 {
     public interface ITextile
     {
-        string TextileType { get; set; }// Тип ткани
+        string TextileType { get; set; }
 
-        string DisplayInformation();// Вывести информацию о ткани
+        string DisplayInformation();
 
-        bool CheckIntegrity();// Проверить целостность
+        bool CheckIntegrity();
     }
 }

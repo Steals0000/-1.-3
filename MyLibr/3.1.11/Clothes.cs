@@ -12,22 +12,22 @@ namespace MyLibr._3._1._11
 
         public bool IsIntegrityChecked { get; set; }
 
-        public string ManufacturerName { get; set; } //Название производителя
+        public string ManufacturerName { get; set; }
 
-        public string YourReview { get; set; } //Ваш отзыв на эту одежду
+        public string YourReview { get; set; }
 
-        public Clothes(bool isIntegrityChecked, string manufacturerName)
+        public Clothes(string manufacturerName)
         {
-            this.IsIntegrityChecked = isIntegrityChecked;
+            this.IsIntegrityChecked = false;
             this.ManufacturerName = manufacturerName;
             this.YourReview = "";
         }
 
-        public abstract string DisplayInformation();// Вывести информацию о ткани
+        public abstract string DisplayInformation();
 
-        public abstract bool CheckIntegrity();// Проверить целостность ткани
+        public abstract bool CheckIntegrity();
 
-        public void WriteAReview(string text) // оставить отзыв;
+        public void WriteReview(string text) 
         {
             YourReview = text;
         }
