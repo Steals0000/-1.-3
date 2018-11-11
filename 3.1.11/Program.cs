@@ -12,7 +12,25 @@ namespace _3._1._11
         static void Main(string[] args)
         {
             List<ITextile> textileList = new List<ITextile>();
-            ChooseClothesType(textileList);
+            ChooseTextileType(textileList);
+        }
+
+        static void ChooseTextileType(List<ITextile> textileList)
+        {
+            int checker = 1;
+            while (checker != 0)
+            {
+                Console.WriteLine("Выберите тип изделия: \n0 - выход\n1 - Одежда");
+                checker = CheckInput("", "Выберите значение из предложенного списка");
+                switch (checker)
+                {
+                    case 0:
+                        break;
+                    case 1:
+                        ChooseClothesType(textileList);
+                        break;
+                }
+            }
         }
 
         static void ChooseClothesType(List<ITextile> textileList)
@@ -20,14 +38,14 @@ namespace _3._1._11
             int checker = 1;
             while (checker != 0)
             {
-                Console.WriteLine("Выберите тип изделия: \n0 - выход\n1 - Костюм");
+                Console.WriteLine("Выберите тип одежды: \n0 - выход\n1 - Костюм");
                 checker = CheckInput("", "Выберите значение из предложенного списка");
                 switch (checker)
                 {
                     case 0:
                         break;
                     case 1:
-                        int countTextile = CheckInput("Введите количетво изделий: ", "Введите число!");
+                        int countTextile = CheckInput("Введите количетво костюмов: ", "Введите число!");
                         for (int i = 0; i < countTextile; i++)
                         {
                             string textileType = "";
@@ -43,14 +61,14 @@ namespace _3._1._11
                             costumeIntegrity = CheckInput("Цела ли ткань?\n0 - порвана\nЛюбое другое число - цела\n", "Введите число!");
                             textileList.Add(new Costume(manufacturerName, textileType, costumeName, Convert.ToBoolean(costumeIntegrity)));
                             Console.WriteLine("--------------------------------------------------------------------------");
-                            Choose(textileList);
+                            ChooseAction(textileList);
                         }
                         break;
                 }
             }
         }
 
-        static void Choose(List<ITextile> textileList)
+        static void ChooseAction(List<ITextile> textileList)
         {
             int checker = 1;
             while (checker != 0)

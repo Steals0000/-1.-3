@@ -49,7 +49,7 @@
             {
                 info += "Костюм отмечен как хороший" + "\n";
             }
-            else if  (!IsCostumeGood)
+            else if (!IsCostumeGood)
             {
                 info += "Костюм отмечен как плохой" + "\n";
             }

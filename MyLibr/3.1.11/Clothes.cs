@@ -27,7 +27,7 @@ namespace MyLibr._3._1._11
 
         public abstract bool CheckIntegrity();
 
-        public void WriteReview(string text) 
+        public void WriteReview(string text)
         {
             YourReview = text;
         }
